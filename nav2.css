@@ -2,6 +2,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: arial,sans-serif;
 }
 .navbar{
     background-color: navy;
@@ -12,7 +13,7 @@ body{
 }
 .logo{
     color: white;
-    font-family: arial,sans-serif;
+    
     font-size: 24px;
     font-weight: bold;
 }
@@ -32,7 +33,7 @@ body{
 }
 .skills{
     display: flex;
-    align-items: center;
+    padding: 40px 20px;
    justify-content: center;
    gap: 20px;
 
@@ -41,7 +42,7 @@ body{
 .card{
     background-color: bisque;
     padding: 20px 30px;
-    margin: 20px;
+    
     border: 2px solid blue;
     border-radius: 10px;
     text-align: center;
